@@ -8,16 +8,16 @@ import injuryRecover from '../background-pictures/injuryRecoverBackground.jpeg';
 const Services = () => {
   return (
     <div className="services">
-      <h1>This is my competitions:</h1>
+      <h1>Consultations</h1>
       <div className="serviceList">
-        <div className="trainConsultation service-unit trainConsultation">
-          <div class="textArea">
-            <h4>Trains</h4>
-          </div>
-        </div>
         <div className="mealConsultation service-unit mealsConsultation">
           <div class="textArea">
             <h4>Meals</h4>
+          </div>
+        </div>
+        <div className="trainConsultation service-unit trainConsultation">
+          <div class="textArea">
+            <h4>Trains</h4>
           </div>
         </div>
         <div className="injuryReciveryInfo service-unit injuriesConsultation">
