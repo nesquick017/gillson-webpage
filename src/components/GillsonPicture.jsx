@@ -1,3 +1,5 @@
+import '../components_css/GillsonPicture.css';
+
 const GillsonPicture = () => {
   return (
     <div className="gillsonPicture">

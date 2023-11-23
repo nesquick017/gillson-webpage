@@ -1,0 +1,26 @@
+.footerSection {
+  background-color: rgba(
+    102,
+    102,
+    102,
+    0.5
+  ); /* Прозрачный серый фон (здесь 0.5 - уровень прозрачности) */
+  color: #f8f8f0;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+}
+
+.in-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.gitIntegration {
+  display: flex;
+  justify-content: space-between;
+}

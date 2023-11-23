@@ -1,0 +1,36 @@
+.in-header {
+  display: flex;
+  height: 5rem;
+}
+
+.navList {
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headerSection {
+  background-color: rgba(
+    102,
+    102,
+    102,
+    0.5
+  ); /* Прозрачный серый фон (здесь 0.5 - уровень прозрачности) */
+  color: #f8f8f0;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: gray;
+}
+
+.navLink {
+  height: 100%;
+  display: inline-flex;
+  margin-right: 5px;
+}
+
+.btn {
+  color: #1a1a1a;
+}

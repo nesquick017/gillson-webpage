@@ -15,8 +15,8 @@ function App() {
           <GillsonPicture />
         </div>
         <Services />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

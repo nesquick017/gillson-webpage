@@ -1,33 +1,17 @@
 import React from 'react';
-
+import '../components_css/Footer.css';
 const Footer = () => {
   return (
-    <header className="headerSection">
-      <div className="in-header">
-        <ul className="navList">
-          <li className="navLink">
-            <button type="button" class="btn">
-              Main Page
-            </button>
-          </li>
-          <li className="navLink">
-            <button type="button" class="btn">
-              WorkShops
-            </button>
-          </li>
-          <li className="navLink">
-            <button type="button" class="btn">
-              Contacts
-            </button>
-          </li>
-          <li className="navLink">
-            <button type="button" class="btn">
-              About
-            </button>
-          </li>
-        </ul>
+    <footer className="footerSection">
+      <div className="in-footer">
+        <div className="gitIntegration">
+          <p>Created by</p>
+          <a class="gitHubLink" href="https://github.com/nesquick017">
+            Madorskii Nikita
+          </a>
+        </div>
       </div>
-    </header>
+    </footer>
   );
 };
 

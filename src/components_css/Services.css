@@ -1,38 +1,26 @@
-.servicesContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.services {
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: gainsboro; */
-}
-
-.services > h1 {
-  font-size: 50px;
-}
-
 .serviceList {
   text-align: center;
   display: flex;
-  height: 400px;
   color: #bdbdbd;
+  width: 100%;
+  height: 300px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.services > h1 {
 }
 
 .service-unit {
   flex: 1;
-  margin: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  width: 300px;
+  justify-content: space-between;
 }
 
 .trainConsultation {

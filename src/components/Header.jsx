@@ -1,12 +1,7 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import cn from 'classname';
-// import { useState } from 'react';
+import '../components_css/Header.css';
 
 const Header = () => {
-  //   const [activeBtn, setActiveBtn] = useState('mainPage');
-
-  //   const setClassName = (id) => cn('btn', 'btn-primary', { active: activeBtn === id });
-
   return (
     <header className="headerSection">
       <div className="in-header">

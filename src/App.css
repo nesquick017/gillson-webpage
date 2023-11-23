@@ -1,87 +1,17 @@
-body {
-  height: 100vh;
-  background-color: #bdbdbd;
-  color: #1a1a1a;
-}
-
-.App-header {
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App {
-  height: 100vh;
-  flex-direction: column;
-}
-
-.welcomePage {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: left;
-}
-
-.in-header {
-  display: flex;
-  height: 100%;
-}
-
-.navList {
-  height: 100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navLink {
-  height: 100%;
-  display: inline-flex;
-  margin-right: 5px;
-}
-
-.headerSection {
-  background-color: rgba(
-    102,
-    102,
-    102,
-    0.5
-  ); /* Прозрачный серый фон (здесь 0.5 - уровень прозрачности) */
-  color: #f8f8f0;
-  height: 85px;
-  display: flex;
-  justify-content: center;
-  border: solid;
-  border-color: gray;
-}
-
-.btn {
-  color: #1a1a1a;
-}
-
-.greetingSection {
-  width: 50vh;
-  flex: 1;
-}
-
-.gillsonPicture {
-  background-image: url(/src/background-pictures/profile_photo.jpeg);
-  background-size: cover;
-  height: 100vh;
-  flex: 1;
-  background-position: center bottom;
-}
-
-.gillsonPicture > section {
-  font-size: 22px;
-}
-
 .siteBody {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.welcomePage {
+  display: flex;
+  width: 100%;
+}
+
+.greetingSection,
+.gillsonPicture {
+  flex: 1;
 }

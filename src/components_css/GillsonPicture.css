@@ -1,0 +1,18 @@
+.gillsonPicture {
+  background-image: url('/src/background-pictures/profile_photo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.gillsonPicture > .container {
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+
+.gitHubLink {
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
