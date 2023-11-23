@@ -1,0 +1,16 @@
+.aboutMeHeader {
+  padding-bottom: 30px;
+  /* padding-top: 50px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutMe {
+  text-align: center;
+}
+
+.aboutMeContainer {
+  width: 50vh;
+  font-size: 22px;
+}
