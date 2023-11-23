@@ -1,22 +1,21 @@
 import Header from './components/Header.jsx';
 import './App.css';
-import Description from './components/Description.jsx';
-import GillsonPicture from './components/GillsonPicture.jsx';
 import Services from './components/Services.jsx';
 import Footer from './components/Footer.jsx';
+import AboutMe from './components/AboutMeSection.jsx';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className="siteBody">
-        <div className="welcomePage">
-          <Description />
-          <GillsonPicture />
+      <div className="siteContainer">
+        <Header />
+        <div className="siteBody">
+          <AboutMe />
+          <Services />
         </div>
-        <Services />
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

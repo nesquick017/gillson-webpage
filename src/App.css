@@ -1,19 +1,7 @@
 body {
   width: 100%;
 }
-.siteBody {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.siteBody > .servicesHeader {
+  /* text-align: center; */
   align-items: center;
-}
-
-.welcomePage {
-  display: flex;
-  width: 100%;
-}
-
-.greetingSection,
-.gillsonPicture {
-  flex: 1;
 }

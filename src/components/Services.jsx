@@ -1,30 +1,17 @@
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../components_css/Services.css';
-
 import trainConsultation from '../background-pictures/trainConsultationBackground.jpeg';
 import mealConsultation from '../background-pictures/mealConsultationBackground.jpeg';
 import injuryRecover from '../background-pictures/injuryRecoverBackground.jpeg';
 
 const Services = () => {
   return (
-    <div className="services">
-      <h1>Consultations</h1>
-      <div className="serviceList">
-        <div className="mealConsultation service-unit mealsConsultation">
-          <div class="textArea">
-            <h4>Meals</h4>
-          </div>
-        </div>
-        <div className="trainConsultation service-unit trainConsultation">
-          <div class="textArea">
-            <h4>Trains</h4>
-          </div>
-        </div>
-        <div className="injuryReciveryInfo service-unit injuriesConsultation">
-          <div class="textArea">
-            <h4>Injuries</h4>
-          </div>
-        </div>
+    <div className="container servicesContainer text-center">
+      <h1>Personal Consultations</h1>
+      <div className="row">
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
       </div>
     </div>
   );

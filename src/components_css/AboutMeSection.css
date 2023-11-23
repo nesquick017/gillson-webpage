@@ -1,0 +1,12 @@
+.gillsonPicture {
+  background-image: url('/src/background-pictures/profile_photo.jpeg');
+  background-position: center center;
+  background-size: cover;
+  min-height: 50rem;
+  opacity: 0.9;
+}
+
+.aboutMeContainer {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}

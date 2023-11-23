@@ -1,29 +1,19 @@
-.in-header {
-  display: flex;
+.headerContainer {
+  max-width: 100%;
   height: 5rem;
+  background-color: #66666680;
 }
-
-.navList {
-  height: 100%;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.headerSection {
-  background-color: rgba(102, 102, 102, 0.5);
-  color: #f8f8f0;
-  height: 30%;
+.headerContainer > .row {
+  height: 5rem;
   display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.headerBtn {
+  height: 5rem;
+  width: 10rem;
   justify-content: center;
-}
-
-.navLink {
-  height: 100%;
-  display: inline-flex;
-  margin-right: 5px;
-}
-
-.btn {
-  color: #1a1a1a;
+  align-items: center;
+  display: flex;
 }

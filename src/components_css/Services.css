@@ -1,53 +1,42 @@
-.serviceList {
-  text-align: center;
+/* .servicesContainer {
+  height: 15rem;
   display: flex;
-  color: #bdbdbd;
-  width: 100%;
-  height: 300px;
+  flex-direction: row;
 }
 
-.services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+.servicesContainer > .row {
+  height: 15rem;
 }
 
-.services > h1 {
-  margin: 8rem;
-}
-
-.service-unit {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.trainConsultation {
-  background: url('/src/background-pictures/trainConsultationBackground.jpeg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0.9;
-}
-
-.mealsConsultation {
+.mealsInfo {
   background-image: url('/src/background-pictures/mealConsultationBackground.jpeg');
-  background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 0.9;
-}
-
-.injuriesConsultation {
-  background-image: url('/src/background-pictures/injuryRecoverBackground.jpeg');
   background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+  min-height: 100%;
   opacity: 0.9;
+  padding-top: 1rem;
+  color: #bdbdbd;
 }
 
-.textArea > h4 {
-  font-size: 50px;
+.trainingsInfo {
+  background-image: url('/src/background-pictures/trainConsultationBackground.jpeg');
+  background-position: center center;
+  background-size: cover;
+  min-height: 100%;
+  opacity: 0.9;
+  padding-top: 1rem;
+  color: #bdbdbd;
 }
+
+.injuriesInfo {
+  background-image: url('/src/background-pictures/injuryRecoverBackground.jpeg');
+  background-position: left bottom;
+  background-size: cover;
+  min-height: 100%;
+  opacity: 0.9;
+  padding-top: 1rem;
+  color: #bdbdbd;
+}
+.mealsInfo > h1 {
+  opacity: 1;
+} */
